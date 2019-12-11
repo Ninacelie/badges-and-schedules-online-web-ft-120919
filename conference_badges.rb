@@ -9,4 +9,3 @@ def batch_badge_creator(attendees)
    attendees.each { |name| array << badge_maker(name) }
    array #return the new array
 end
-
